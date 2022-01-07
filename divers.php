@@ -1,3 +1,3 @@
-<div>
-    <p>page Divers</p>
+<div id="divers">
+    <h3>page Divers</h3>
 </div>

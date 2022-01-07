@@ -1,17 +1,10 @@
 <div id="accueil">
-        <h2>Présentation</h2>
-        <p>Bienvenue sur ce générateur de CV
-        cliquer sur commencer pour démarrer !</p>
-
-        <?php
-        if(!empty($_POST['commencer'])) {
-        include "identite.php";
-        }
-        ?>
         <div>
-                <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="post">
-                <input type="submit" id="commencer" name="commencer" value="commencer">
-                <form>
+                <h3>Présentation</h3>
+                <p>Bienvenue sur ce générateur de CV
+                cliquer sur commencer pour démarrer !</p>
         </div>
-
+        <div class="button2 gridButton2">
+                <a href="index.php?navBar=identite">Commencer</a>
+        </div>
 </div>

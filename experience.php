@@ -1,4 +1,3 @@
 <div id="experience">
-        <h3>👔 &nbsp;Expériences professionnelles</h3>
-
+        <h3>Expériences</h3>
 </div>

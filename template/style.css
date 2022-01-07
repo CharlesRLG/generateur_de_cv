@@ -1,76 +1,389 @@
-body{
-    background-color:  rgb(41, 38, 38);
-}
-header{
-    width: 90%;
-    max-width: 1300px;
-    min-width: 100px;
-    margin: 5px auto 0;
-    display: flex;
-    justify-content: center;
+@media screen and (min-width:800px){
 
-}
-#container {
-    width: 90%;
-    max-width: 1300px;
-    min-width: 700px;
-    margin: 70px auto 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-#navBar{
-    background: #2a8386;     /*5f9ea0*/
-    width: 30%;
-    min-width: 200px;
-    min-height:500px ;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column; 
-   
-}
-.button {
-    margin: 10px 0px;
-    align-self: flex-start;
-}
-.gridButton {
-  
-    min-width: 100px;
-    font-size: 20px;
-    color: white;
-    background:#209975;
-    border: 1px #d6d44d solid;
-    border-radius: 3px 3px 3px 3px;
-    cursor: pointer;
-    position: relative;
-    padding: 5px;
-    text-decoration: none;
+    body{
+        background-color:  #f5dab8;
     }
-#corp{
-    background: #f0c652;   /*#fcfaa3*/
-    width: 70%;
-    min-width: 550px;
-    min-height: 500px;
-    padding: 20px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    header{
+        background: #f0c652; 
+        width: 90%;
+        max-width: 1300px;
+        min-width: 100px;
+        margin: 5px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+    #container {
+        width: 90%;
+        max-width: 1300px;
+        min-width: 700px;
+        margin: 5px auto 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #navBar{
+        background: #2a8386;     /*5f9ea0*/
+        min-width: 130px;
+        min-height:500px ;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column; 
+    }
+    #navBar2{   
+        width: 10%;
+        min-width: 130px;
+        min-height:500px ;
+        display: flex;
+        flex-direction: column; 
+    }
+    #navBar h2 {
+        font-size: 30px;
+        color: #c2cc3a
+    }
+    .button {
+        margin: 10px 0px;
+        align-self: flex-start;
+    }
+    .gridButton {
+    
+        min-width: 100px;
+        font-size: 20px;
+        color: white;
+        background:#209975;
+        border: 1px #d6d44d solid;
+        border-radius: 3px 3px 3px 3px;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .button2 {
+        width: 60px;
+        margin: 10px 0px;
+        align-self: flex-start;
+    }
+    .gridButton2 {
+    
+        min-width: 100px;
+        font-size: 20px;
+        color: white;
+        background:#209975;
+        border: 1px #d6d44d solid;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        text-decoration: none;
+    }
+    #corp{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #identy{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formation{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #experience{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #divers{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #langue{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #information{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 90%;
+        min-width: 500px;
+        min-height: 500px;
+        padding: 20px 20px;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer{
+        background: #f0c652; 
+        width: 90%;
+        max-width: 1300px;
+        min-width: 100px;
+        margin: 5px auto;
+        display: flex;
+
+    }
+    h3 {
+        color: #209975;
+    }
+    h2 {
+        font-size: 30px;
+        color: #209975
+    }
+    h1 {
+        font-size: 50px;
+        color: #209975
+    }
+    p {
+        cursor: default;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+    }
+    li {
+        text-align: center;
+    }
 }
-footer{
-    width: 80%;
-    max-width: 1000px;
-    min-width: 650px;
-    margin: 20px auto 0;
-    display: flex;
-}
-h3 {
-    color: #209975;
-}
-h2 {
-    font-size: 30px;
-    color: #209975
-}
-h1 {
-    font-size: 50px;
-    color: #209975
+
+@media screen and (min-width:340px) and (max-width:799px) {
+
+    body{
+        background-color:  #f5dab8;
+    }
+    header{
+        background: #f0c652; 
+        width: 90%;
+        margin: 5px auto 0;
+        display: flex;
+        justify-content: center;
+    }
+    #container {
+        width: 90%;
+        max-width: 1300px;
+        min-width: 400px;
+        margin: 5px auto 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #navBar{
+        background: #2a8386;     /*5f9ea0*/
+        min-height:50px ;
+        padding-left: 5px;
+        display: flex;
+        flex-direction: column; 
+    }
+    #navBar2{   
+        width:90%;
+        min-height:50px ;
+        display: flex;
+        flex-direction: row; 
+    }
+    #navBar h2 {
+        text-align: center;
+        font-size: 20px;
+        color: #c2cc3a
+    }
+    .button {
+        margin: 10px 5px;
+        align-self: flex-start;
+    }
+    .gridButton {
+    
+        min-width: 30px;
+        font-size: 12px;
+        color: white;
+        background:#209975;
+        border: 1px #d6d44d solid;
+        border-radius: 3px 3px 3px 3px;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .button2 {
+        width: 60px;
+        margin: 10px 0px;
+        align-self: flex-start;
+    }
+    .gridButton2 {
+    
+        min-width: 100px;
+        font-size: 20px;
+        margin-left: 30px;
+        color: white;
+        background:#209975;
+        border: 1px #d6d44d solid;
+        border-radius: 10px 10px 10px 10px;
+        cursor: pointer;
+        position: relative;
+        padding: 5px;
+        text-decoration: none;
+    }
+    #corp{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #identy{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #formation{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #experience{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #divers{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #langue{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #information{
+        background: #f0c652;   /*#fcfaa3*/
+        width: 100%;
+        min-width: 300px;
+        min-height: 300px;
+        padding: 20px 0px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer{
+        background: #f0c652; 
+        width: 90%;
+        max-width: 1300px;
+        min-width: 100px;
+        margin: 5px auto;
+        display: flex;
+
+    }
+    h3 {
+        color: #209975;
+    }
+    h2 {
+        font-size: 30px;
+        color: #209975
+    }
+    h1 {
+        font-size: 50px;
+        color: #209975
+    }
+    p {
+        cursor: default;
+    }
+    .sousmenu
+    {
+    list-style-type: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color:white;
+    max-height: 0px;
+    text-align: center;
+    transition: max-height 0.2s ease;
+    overflow: hidden;
+    }
+    .déroul:hover> .sousmenu
+    {
+        max-height:450px;
+    }
+    .déroul
+    {
+    position: relative;
+    }
+    ul {
+        list-style: none;
+        text-align: center;
+    }
+    li {
+        text-align: center;
+    }
 }

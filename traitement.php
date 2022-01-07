@@ -1,6 +1,6 @@
 <div id="container-content">
     <?php
-    $navBar = $_GET['navBar'] ?? "identite";
+    $navBar = $_GET['navBar'] ?? "accueil";
     switch ($navBar) {
         case 'accueil':
             include "accueil.php";
