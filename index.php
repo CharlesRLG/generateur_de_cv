@@ -1,14 +1,20 @@
 <?php
-    require("header.php");
+require("header.php");
 ?>
-
-<body>
-   <section>
-       <p>plop2</p>
-   </section>
-</body>
-
-
+</header>
+<main id="container">
+        <div id=navBar>
+            <?php
+            require("navBar.php");
+            ?>
+        </div>
+        <div id=corp>
+            <?php
+            require("traitement.php");
+            ?>
+        </div>
+</main>
+<footer>
 <?php
-    require("footer.php");
+require("footer.php");
 ?>
