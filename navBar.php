@@ -1,6 +1,6 @@
             <div id="navBar2">
             <ul class="menu">
-                <li class="déroul"><a title="HTML5"><div><h2>MENU</h2></div></a>
+                <li class="déroul"><h2>MENU</h2>
                     <ul class="sousmenu">
                         <li><div class="button gridButton"><a href="index.php?navBar=accueil">accueil</a></div></li>
                         <li><div class="button gridButton"><a href="index.php?navBar=identite">Information</a></div></li>

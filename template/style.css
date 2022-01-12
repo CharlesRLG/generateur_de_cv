@@ -1,10 +1,11 @@
 @media screen and (min-width:800px){
 
     body{
-        background-color:  #f5dab8;
+        background-color:  #94D2BD;
     }
     header{
-        background: #f0c652; 
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;
         width: 90%;
         max-width: 1300px;
         min-width: 100px;
@@ -15,48 +16,52 @@
     #container {
         width: 90%;
         max-width: 1300px;
-        min-width: 700px;
+        min-width: 600px;
         margin: 5px auto 0;
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
     #navBar{
-        background: #2a8386;     /*5f9ea0*/
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;     /*5f9ea0*/
+        min-width: 200px;
+        min-height:500px ;
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column; 
+    }
+    #corp{
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;     /*5f9ea0*/
         min-width: 130px;
         min-height:500px ;
         padding-left: 10px;
         display: flex;
         flex-direction: column; 
     }
+    #accueil{
+        background: #E9D8A6;
+    }
     #navBar2{   
         width: 10%;
-        min-width: 130px;
+        min-width: 200px;
         min-height:500px ;
         display: flex;
         flex-direction: column; 
-    }
+        
+        }
     #navBar h2 {
         font-size: 30px;
-        color: #c2cc3a
+        color: #AE2012;
+
     }
     .button {
         margin: 10px 0px;
         align-self: flex-start;
     }
-    .gridButton {
-    
-        min-width: 100px;
-        font-size: 20px;
-        color: white;
-        background:#209975;
-        border: 1px #d6d44d solid;
-        border-radius: 3px 3px 3px 3px;
-        cursor: pointer;
-        position: relative;
-        padding: 5px;
-        text-decoration: none;
-    }
+
     .button2 {
         width: 60px;
         margin: 10px 0px;
@@ -67,16 +72,23 @@
         min-width: 100px;
         font-size: 20px;
         color: white;
-        background:#209975;
-        border: 1px #d6d44d solid;
+        background-color: #b8a56d; 
+        color: #AE2012;  
         border-radius: 10px 10px 10px 10px;
         cursor: pointer;
         position: relative;
         padding: 5px;
         text-decoration: none;
     }
+  
+    .gridButton2:hover
+    {
+        background-color: #6e7e76;
+        color: #FFE18A;
+    }
     #corp{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;   /*#fcfaa3*/
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -87,7 +99,7 @@
         justify-content: center;
     }
     #identy{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -98,7 +110,7 @@
         justify-content: center;
     }
     #formation{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -109,7 +121,7 @@
         justify-content: center;
     }
     #experience{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -120,7 +132,7 @@
         justify-content: center;
     }
     #divers{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -131,7 +143,7 @@
         justify-content: center;
     }
     #langue{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -142,7 +154,7 @@
         justify-content: center;
     }
     #information{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
         width: 90%;
         min-width: 500px;
         min-height: 500px;
@@ -153,7 +165,8 @@
         justify-content: center;
     }
     footer{
-        background: #f0c652; 
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;
         width: 90%;
         max-width: 1300px;
         min-width: 100px;
@@ -162,35 +175,92 @@
 
     }
     h3 {
-        color: #209975;
+        color: #AE2012;
     }
     h2 {
         font-size: 30px;
-        color: #209975
+        color: #AE2012
     }
     h1 {
         font-size: 50px;
-        color: #209975
+        color: #AE2012
     }
-    p {
-        cursor: default;
+    .menu
+    {
+      display: flex;              
+      padding:0;                      
+      /* justify-content: center; */
+      
+      
     }
-    ul {
-        list-style: none;
+    .menu a 
+    {
+        display:block;                
+        width: 90%;
+        min-width: 140px;
+        border-radius: 3px;
+        margin: 0.2em;
+        margin-right: 3.5em;
+        margin-left: 1em;
+        padding:0.6em 0.5em;
+        text-align: center; 
+        background-color: #b8a56d; 
+        color: #AE2012; 
+    }
+
+    .menu h2 
+    {
+        margin-left: 50px;
+    }
+      
+           
+    }
+    .menu a:hover
+    {
+        background-color: #4B5A53;
+        color: #FFE18A;
+        
+    }
+    .déroul
+    {
+      position: relative;
+      margin-left: 5px;
+      list-style-type: none;
+    }
+    .sousmenu
+    {
+        list-style-type: none;
+        position: absolute;
+        right: 0;
+        width: 100%;
+        color:white;
+        max-height: 0px;
         text-align: center;
     }
-    li {
-        text-align: center;
+    #menu_cache1
+    {
+      display: none;
     }
-}
+    #menu_cache2
+    {
+      color: rgba(0, 0, 0, 0);
+      margin-top: 30em;
+    }
+    p 
+    {
+        color: #AE2012; 
+        margin-left: 5px;
+    }
+
 
 @media screen and (min-width:340px) and (max-width:799px) {
 
     body{
-        background-color:  #f5dab8;
+        background-color:  #94D2BD;
     }
     header{
-        background: #f0c652; 
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;
         width: 90%;
         margin: 5px auto 0;
         display: flex;
@@ -206,7 +276,8 @@
         justify-content: center;
     }
     #navBar{
-        background: #2a8386;     /*5f9ea0*/
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;    /*5f9ea0*/
         min-height:50px ;
         padding-left: 5px;
         display: flex;
@@ -221,7 +292,7 @@
     #navBar h2 {
         text-align: center;
         font-size: 20px;
-        color: #c2cc3a
+        color: #AE2012; 
     }
     .button {
         margin: 10px 5px;
@@ -229,12 +300,12 @@
     }
     .gridButton {
     
-        min-width: 30px;
-        font-size: 12px;
+        min-width: 100px;
+        font-size: 20px;
         color: white;
-        background:#209975;
-        border: 1px #d6d44d solid;
-        border-radius: 3px 3px 3px 3px;
+        background-color: #b8a56d; 
+        color: #AE2012;  
+        border-radius: 10px 10px 10px 10px;
         cursor: pointer;
         position: relative;
         padding: 5px;
@@ -249,10 +320,9 @@
     
         min-width: 100px;
         font-size: 20px;
-        margin-left: 30px;
         color: white;
-        background:#209975;
-        border: 1px #d6d44d solid;
+        background-color: #b8a56d; 
+        color: #AE2012;  
         border-radius: 10px 10px 10px 10px;
         cursor: pointer;
         position: relative;
@@ -260,7 +330,8 @@
         text-decoration: none;
     }
     #corp{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -271,7 +342,7 @@
         justify-content: center;
     }
     #identy{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -282,7 +353,7 @@
         justify-content: center;
     }
     #formation{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -293,7 +364,7 @@
         justify-content: center;
     }
     #experience{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;  /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -304,7 +375,7 @@
         justify-content: center;
     }
     #divers{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -315,7 +386,7 @@
         justify-content: center;
     }
     #langue{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -326,7 +397,7 @@
         justify-content: center;
     }
     #information{
-        background: #f0c652;   /*#fcfaa3*/
+        background: #E9D8A6;   /*#fcfaa3*/
         width: 100%;
         min-width: 300px;
         min-height: 300px;
@@ -337,7 +408,8 @@
         justify-content: center;
     }
     footer{
-        background: #f0c652; 
+        background: #E9D8A6;
+        border: 1px solid #EE9B00;
         width: 90%;
         max-width: 1300px;
         min-width: 100px;
@@ -346,24 +418,54 @@
 
     }
     h3 {
-        color: #209975;
+        color: #AE2012; 
     }
     h2 {
         font-size: 30px;
-        color: #209975
+        color: #AE2012; 
     }
     h1 {
         font-size: 50px;
-        color: #209975
+        color: #AE2012; 
     }
-    p {
-        cursor: default;
+    p 
+    {
+        color: #AE2012; 
+        margin-left: 5px;
+    }
+    .menu
+    {
+      display: flex;              
+      padding:0;                      
+      /* justify-content: center; */
+      
+      
+    }
+    .menu a 
+    {
+        display:block;                
+        width: 90%;
+        min-width: 140px;
+        border-radius: 3px;
+        margin: 0.2em;
+        margin-right: 3.5em;
+        margin-left: 1em;
+        padding:0.6em 0.5em;
+        text-align: center; 
+        background-color: #b8a56d; 
+        color: #AE2012; 
+    }
+    .déroul
+    {
+      position: relative;
+      margin-left: 5px;
+      list-style-type: none;
     }
     .sousmenu
     {
     list-style-type: none;
     position: absolute;
-    left: 0;
+    right: 0;
     width: 100%;
     color:white;
     max-height: 0px;
@@ -375,10 +477,7 @@
     {
         max-height:450px;
     }
-    .déroul
-    {
-    position: relative;
-    }
+
     ul {
         list-style: none;
         text-align: center;
